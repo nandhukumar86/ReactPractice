@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       Call from App Component
-      <Home></Home>
+      <Home name="Home"></Home>
     </div>
   );
 }

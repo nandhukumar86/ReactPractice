@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function () {
+export default function Home(props) {
     return (
         <div>
-            Call from Home
+            Call from Home - {props.name}
         </div>
     )
 }
