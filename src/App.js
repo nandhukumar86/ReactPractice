@@ -22,7 +22,7 @@ function App() {
         </ul>
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home name="pass data to component from higher order component" />
           </Route>
           <Route path="/aboute">
             <About />
